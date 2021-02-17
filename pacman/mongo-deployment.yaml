@@ -15,7 +15,7 @@ spec:
         name: mongo
     spec:
       containers:
-      - image: quay.io/dberg1/nodejs-pacman-app
+      - image: quay.io/callisteh/mongodb:latest
         name: mongo
         ports:
         - name: mongo
